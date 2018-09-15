@@ -1,0 +1,11 @@
+name: Binder Test 1
+channels:
+  - anaconda
+dependencies:
+  - python
+  - numpy
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
